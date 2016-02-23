@@ -1,13 +1,13 @@
-# Student_Management_System
+#  :department_store: Student_Management_System   :mortar_board: 
 This Project composed Of Angular 2 , Express , Gulp , Typescript , Mongo Db , Semantic UI
 
-## > Heroku Deployment
-
-  Please wait for this URL https://ridss-student-management-app.herokuapp.com/
+## > Heroku Deployment   :globe_with_meridians:
+                                                                                                                
+    :warning:  :checkered_flag: Please wait for this URL https://ridss-student-management-app.herokuapp.com/  
   
-## > Kindly Follow These Steps
+## > Kindly Follow These Steps   :ok:
   
-  1. npm install from Root directory
-  2. npm install from Root directory/Client
-  3. gulp nodemon from Root Directory/Server
-  4. Open Browser and follow the URL "http:localhost:8080/"
+   :point_right: npm install from Root directory
+   :point_right: npm install from Root directory/Client
+   :point_right: gulp nodemon from Root Directory/Server
+   :point_right: Open Browser and follow the URL "http:localhost:8080/"
