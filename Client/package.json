@@ -18,6 +18,16 @@
     "rxjs": "5.0.0-beta.0",
     "zone.js": "0.5.10"
   },
+  "engines": {
+    "node": ">=v5.5.0"
+  },
+  "bugs": {
+    "url": "https://github.com/RidaRidss/Student_Management_System/issues"
+  },
+   "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RidaRidss/Student_Management_System.git"
+  },
   "devDependencies": {
     "concurrently": "^1.0.0",
     "lite-server": "^1.3.1",
