@@ -5,7 +5,7 @@ This Project composed Of Angular 2 , Express , Gulp , Typescript , Mongo Db , Se
 
   Please wait for this https://ridss-student-management-app.herokuapp.com/
   
-  ## Kindly Follow These Steps
+  ## > Kindly Follow These Steps
   
   1. npm install from Root directory
   2. npm install from Root directory/Client
