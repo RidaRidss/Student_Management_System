@@ -25,5 +25,15 @@
     "gulp-watch": "^4.3.5",
     "mongoose": "^4.3.1"
   },
+  "engines": {
+    "node": ">=v5.5.0"
+  },
+  "bugs": {
+    "url": "https://github.com/RidaRidss/Student_Management_System/issues"
+  },
+   "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RidaRidss/Student_Management_System.git"
+  },
   "devDependencies": {}
 }
