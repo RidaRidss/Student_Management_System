@@ -3,7 +3,7 @@ This Project composed Of Angular 2 , Express , Gulp , Typescript , Mongo Db , Se
 
 ## > Heroku Deployment   :globe_with_meridians:
                                                                                                                 
-    :warning:  :checkered_flag: Please wait for this URL https://ridss-student-management-app.herokuapp.com/  
+:warning:   :checkered_flag:  Please wait for this URL https://ridss-student-management-app.herokuapp.com/  
   
 ## > Kindly Follow These Steps   :ok:
   
