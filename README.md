@@ -3,4 +3,4 @@ This Project composed Of Angular 2 , Express , Gulp , Typescript , Mongo Db , Se
 
 ## > Heroku Deployment
 
-  https://ridss-student-management-app.herokuapp.com/
+  Please wait for this https://ridss-student-management-app.herokuapp.com/
