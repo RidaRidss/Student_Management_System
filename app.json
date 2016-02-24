@@ -1,0 +1,15 @@
+{
+  "name": "Student_Management_System",
+  "description": "This is required to deploy on heroku",
+  "scripts": {
+    "postdeploy": "node Server/build/app.js"
+  },
+  "env": {
+  },
+  "addons": [
+
+  ],
+  "buildpacks": [
+
+  ]
+}
