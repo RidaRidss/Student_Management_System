@@ -29,6 +29,9 @@
   "bugs": {
     "url": "https://github.com/RidaRidss/Student_Management_System/issues"
   },
+  "engines": {
+    "node": "5.5.0"
+  },
    "repository": {
     "type": "git",
     "url": "git+https://github.com/RidaRidss/Student_Management_System.git"
