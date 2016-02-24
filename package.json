@@ -36,5 +36,6 @@
     "type": "git",
     "url": "git+https://github.com/RidaRidss/Student_Management_System.git"
   },
+  "cacheDirectories": ["node_modules"],
   "devDependencies": {}
 }
