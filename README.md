@@ -11,16 +11,20 @@ This Project composed Of Angular 2 , Express , Gulp , Typescript , Mongo Db , Se
  
   ```
   
-:point_right: npm install from Root directory
+  :point_right:  npm install from Root directory
+
                                                                  
                                                                     
-:point_right: npm install from Root directory/Client
+:point_right:  npm install from Root directory/Client
+
                                                                     
                                                                       
-:point_right: gulp nodemon from Root Directory/Server
+:point_right:  gulp nodemon from Root Directory/Server
+
                                                                       
                                                            
-:point_right: Open Browser and follow the URL    :link:    "http://localhost:8080/"
+
+:point_right:  Open Browser and follow the URL    :link:    "http://localhost:8080/"
 
 
 ```
