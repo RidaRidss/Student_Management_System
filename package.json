@@ -6,6 +6,7 @@
   },
   "author":"Rida Bilgrami",
   "license": "ISC",
+  "description": "Student Management System",
   "dependencies": {
     "angular2": "2.0.0-beta.0",
     "systemjs": "0.19.6",
@@ -37,5 +38,10 @@
     "url": "git+https://github.com/RidaRidss/Student_Management_System.git"
   },
   "cacheDirectories": ["node_modules"],
-  "devDependencies": {}
+  "devDependencies": { "gulp": "^3.9.0",
+    "gulp-nodemon": "^2.0.3",
+    "gulp-rimraf": "^0.1.1",
+    "gulp-typescript": "^2.8.1",
+    "gulp-watch": "^4.3.5"
+ }
 }
