@@ -31,7 +31,8 @@
     "url": "https://github.com/RidaRidss/Student_Management_System/issues"
   },
   "engines": {
-    "node": "5.5.0"
+    "node": "5.5.0",
+    "npm":"3.7.3"
   },
    "repository": {
     "type": "git",
