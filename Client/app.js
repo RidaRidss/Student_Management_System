@@ -63,7 +63,7 @@ System.register(["angular2/platform/browser", "angular2/core", 'angular2/http'],
                         headers.append('Content-Type', 'application/json');
                         var opts = new http_1.RequestOptions();
                         opts.headers = headers;
-                        this.http.post('/addStudent', JSON.stringify(obj), opts).subscribe(function (res) { console.log(res.json()); setTimeout(function () { _this.students = res.json(); }, 2000); });
+                        this.http.post('http://localhost:8080/addStudent', JSON.stringify(obj), opts).subscribe(function (res) { console.log(res.json()); setTimeout(function () { _this.students = res.json(); }, 2000); });
                         document.getElementById('error').innerHTML = "";
                         name.value = "";
                         gender.value = "";
@@ -73,7 +73,7 @@ System.register(["angular2/platform/browser", "angular2/core", 'angular2/http'],
                 };
                 student.prototype.delete = function (student) {
                     var _this = this;
-                    this.http.delete('/deleteStudent/' + student._id).subscribe(function (res) { for (var i = 0; i < _this.students.length; i++) {
+                    this.http.delete('http://localhost:8080/deleteStudent/' + student._id).subscribe(function (res) { for (var i = 0; i < _this.students.length; i++) {
                         if (_this.students[i].id == student.id) {
                             _this.students.splice(i, 1);
                         }
@@ -82,7 +82,7 @@ System.register(["angular2/platform/browser", "angular2/core", 'angular2/http'],
                 student.prototype.updateinfo = function (student) { console.log(student); document.getElementById('name')['value'] = student.name; document.getElementById('gender')['value'] = student.gender; document.getElementById('class')['value'] = student.className; document.getElementById('rollno')['value'] = student.rollNo; this.delete(student); };
                 student.prototype.getStudents = function () {
                     var _this = this;
-                    this.http.request('/getStudents').subscribe(function (res) { _this.students = res.json(); });
+                    this.http.request('http://localhost:8080/getStudents').subscribe(function (res) { _this.students = res.json(); });
                 };
                 student = __decorate([
                     core_1.Component({ selector: 'student', directives: [Data], templateUrl: 'Listing.html' }), 
