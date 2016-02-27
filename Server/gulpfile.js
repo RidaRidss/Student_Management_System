@@ -6,12 +6,17 @@ var gulp = require('gulp');
 var ts = require('gulp-typescript');
 var rimraf = require('gulp-rimraf');
 var nodemon = require('gulp-nodemon');
+var PATHS = {
+    src: 'src/**/*.ts'
+};
 gulp.task('clearBuildDir', function () {
     return gulp.src('build').pipe(rimraf());
 });
 gulp.task('buildServer', ['clearBuildDir'], function () {
-    var tScriptResult = gulp.src('src/**/*.ts')
-        .pipe(ts({ module: 'CommonJS' }));
+     var typescript = require('gulp-typescript');
+    var tscConfig = require('./tsconfig.json');
+    var tScriptResult = gulp .src(PATHS.src)
+        .pipe(typescript(tscConfig.compilerOptions));
     return tScriptResult.js.pipe(gulp.dest('build/'));
 });
 gulp.task('nodemon', ['buildServer', 'watchYou'], function () {
